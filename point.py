@@ -33,26 +33,20 @@ if __name__ == "__main__":
     p1 = Point(3, 2)
     p2 = Point(3, 7)
     
-    # print("find difference")
-    # print(p1.calc_distance(p2))
+    
 
-    # print()
+    print()
 
     p1.reset()
     p2.reset()
-
-    # # print(p1.x, p1.y)
-    # # print(p2.x, p2.y)
-    # print(3, 2)
-    # print(3, 5)
 
 
     p1.move(4, 7)
     p2.move(6, 2)
 
     print("After moving")
-    print(p1.x, p1.y)
-    print(p2.x, p2.y)
+    print(p1.x, p1.y) # 4 7
+    print(p2.x, p2.y) # 6 2
 
     print("find difference")
-    print(p1.calc_distance(p2))
+    print(p1.calc_distance(p2)) #5.385164807134504
