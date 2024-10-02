@@ -37,7 +37,7 @@ Remember, our queue follows the `First in First out` FIFO
 
 It shall have the following interfaces:
 - `enqueue(e)`: Add an item 'e' to the end of the queue, Q.
-- `dequeue()`: Remove and return the element at the front of the queue, Q. Raise an exception if empty
+- `dequeue()`: Remove and return the C, Q. Raise an exception if empty
 - `peek()`: Return a reference to the element at the front of the queue, Q.
 - `is_empty()`: Return True if queue is empty or False otherwise.
 - `size()`: Return the size of the queue
