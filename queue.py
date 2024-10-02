@@ -70,9 +70,9 @@ from collections import deque
 
 class Queue:
     def __init__(self):
-        self._data = [ ]
+        self._data = []
         self._data.append('e')
-        self._data = self.dequeue()
+        #self._data = self.dequeue()
 
     def is_empty(self):
         if len(self._data) == 0:
